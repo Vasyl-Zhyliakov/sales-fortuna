@@ -1,6 +1,6 @@
 # The project was created with Vite + TypeScript.
 
-[Demo](https://vasyl-zhyliakov.github.io/Tako/)
+[Demo](https://vasyl-zhyliakov.github.io/sales-fortuna/)
 
 # Technologies used
 
@@ -25,9 +25,9 @@ Adaptive Layout – The design dynamically adjusts to different screen sizes:
 # Follow these steps to run the project locally:
 
 - Clone the repository:
-  git clone https://github.com/Vasyl-Zhyliakov/Tako.git
+  git clone https://github.com/Vasyl-Zhyliakov/sales-fortuna.git
 - Navigate to the project directory:
-  cd Tako
+  cd sales-fortuna
 - Install the dependencies (Make sure you have Node.js installed):
   npm install
 - Start the development server:
