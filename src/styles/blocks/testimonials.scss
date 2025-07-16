@@ -1,0 +1,162 @@
+.testimonials {
+  background-image: url(../images/photo_2025-05-14_09-00-06_2.jpg);
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 24px;
+  }
+
+  @include desktop {
+    padding-block: 46px;
+  }
+
+  &__title {
+    font-family: Space Grotesk;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 0;
+    text-align: center;
+    padding-bottom: 16px;
+    margin-bottom: 14px;
+
+    @include tablet {
+      font-size: 38px;
+      padding-bottom: 24px;
+      margin-bottom: 22px;
+    }
+
+    @include desktop {
+      font-size: 48px;
+      line-height: 41px;
+      padding-bottom: 36px;
+      margin-bottom: 34px;
+    }
+  }
+
+  &__swiper-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    margin-bottom: 39px;
+  }
+
+  &__card {
+    height: 502px;
+    box-sizing: border-box;
+    border: 1px solid #b6b1b1;
+    background-color: #fff;
+    border-radius: 12px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__card-logo {
+    &--1 {
+      background-image: url(../images/photo_2025-05-14_09-00-06_5.jpg);
+      height: 91px;
+      width: 157px;
+      margin: 49px 0 20px 19px;
+    }
+
+    &--2 {
+      background-image: url(../images/photo_2025-05-14_09-00-06_6.jpg);
+      height: 45px;
+      width: 229px;
+      margin: 76px 0 39px 26px;
+    }
+
+    &--3 {
+      background-image: url(../images/photo_2025-05-14_09-00-06_4.jpg);
+      height: 62px;
+      width: 272px;
+      margin: 77px 0 21px 7px;
+    }
+  }
+
+  &__card-text {
+    margin-left: 26px;
+    font-family: Space Grotesk;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #9b9a99;
+
+    @include tablet {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 35px;
+    }
+
+    &--1,
+    &--2 {
+      margin-right: 34px;
+    }
+
+    &--3 {
+      margin-right: 17px;
+    }
+  }
+
+  &__card-quotes {
+    font-family: Staatliches;
+    font-size: 96px;
+    line-height: 35px;
+    color: #c6c5c6;
+    position: absolute;
+    top: 298px;
+    left: 83.16%;
+    transform: rotate(180deg);
+  }
+
+  &__subscribe-block {
+    padding: 0 47px 20px 29px;
+    display: flex;
+    gap: 17px;
+    margin-top: auto;
+  }
+
+  &__photo {
+    height: 60px;
+    min-width: 60px;
+    background-position: center;
+    background-size: cover;
+
+    &--1 {
+      background-image: url(../images/photo_2025-05-14_09-00-06.jpg);
+    }
+
+    &--2 {
+      background-image: url(../images/photo_2025-05-14_09-00-06_3.jpg);
+    }
+
+    &--3 {
+      background-image: url(../images/photo_2025-06-08_08-35-34.jpg);
+    }
+  }
+
+  &__subscribe {
+    font-family: Space Grotesk;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    height: 105px;
+
+    @include tablet {
+      font-size: 24px;
+      line-height: 35px;
+    }
+  }
+
+  &__subscribe span {
+    font-weight: 500;
+    font-size: 16px;
+
+    @include tablet {
+      font-size: 20px;
+    }
+  }
+}

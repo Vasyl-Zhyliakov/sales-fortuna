@@ -1,0 +1,47 @@
+.swiper {
+  min-width: 0;
+  width: 100%;
+
+  &__button-prev,
+  &__button-next {
+    height: 68px;
+    min-width: 68px;
+    background-color: #fff;
+    border-radius: 999px;
+    display: none;
+
+    @include tablet {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  &__button-prev-icon,
+  &__button-next-icon {
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 22px;
+  }
+
+  &__button-prev-icon {
+    background-image: url(../images/icons/left.svg);
+  }
+
+  &__button-next-icon {
+    background-image: url(../images/icons/right.svg);
+  }
+
+  &__pagination {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.swiper-pagination-bullet {
+  background-color: #d9d9d9 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #4b4b4b !important;
+}
