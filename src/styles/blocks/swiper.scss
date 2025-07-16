@@ -4,8 +4,8 @@
 
   &__button-prev,
   &__button-next {
-    height: 40px;
-    min-width: 40px;
+    height: 58px;
+    min-width: 58px;
     background-color: #fff;
     border-radius: 999px;
     display: none;
@@ -15,11 +15,6 @@
       display: flex;
       justify-content: center;
       align-items: center;
-    }
-
-    @include small {
-      height: 50px;
-      min-width: 50px;
     }
 
     @include desktop {
@@ -37,13 +32,8 @@
   &__button-next-icon {
     background-repeat: no-repeat;
     position: center;
-    height: 24px;
-    width: 14px;
-
-    @include small {
-      height: 28px;
-      width: 18px;
-    }
+    height: 30px;
+    width: 20px;
 
     @include desktop {
       height: 32px;
