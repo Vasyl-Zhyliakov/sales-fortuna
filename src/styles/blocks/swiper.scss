@@ -4,24 +4,51 @@
 
   &__button-prev,
   &__button-next {
-    height: 68px;
-    min-width: 68px;
+    height: 40px;
+    min-width: 40px;
     background-color: #fff;
     border-radius: 999px;
     display: none;
+    transition: all 0.3s;
 
     @include tablet {
       display: flex;
       justify-content: center;
       align-items: center;
     }
+
+    @include small {
+      height: 50px;
+      min-width: 50px;
+    }
+
+    @include desktop {
+      height: 68px;
+      min-width: 68px;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+      background-color: rgb(216, 230, 240);
+    }
   }
 
   &__button-prev-icon,
   &__button-next-icon {
     background-repeat: no-repeat;
-    height: 32px;
-    width: 22px;
+    position: center;
+    height: 24px;
+    width: 14px;
+
+    @include small {
+      height: 28px;
+      width: 18px;
+    }
+
+    @include desktop {
+      height: 32px;
+      width: 22px;
+    }
   }
 
   &__button-prev-icon {
